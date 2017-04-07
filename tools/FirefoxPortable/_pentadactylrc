@@ -1,0 +1,28 @@
+" vim: set ft=pentadactyl:
+"personal setting
+
+loadplugins '\.(js|penta)$'
+group user
+map -count -modes=n h -builtin <count>gT
+map -count -modes=n l -builtin <count>gt
+map -count -modes=n j -builtin 5j
+map -count -modes=n k -builtin 5k
+map -count -modes=i,v jj -builtin <Esc><Space>
+set defsearch=search
+set errorbells
+set guioptions=nb
+set hintkeys=asdfg;lkjh
+set nextpattern='(下|后)一?(页|頁|篇|章|张)|次のページ|次へ','^\bnext\b','\bnext\b','\bsuivant\b','^(>|›)$','^(>>|»)$','^(>|»)','(>|»)$','\bmore\b'
+set previouspattern='(上|前)一?(页|頁|篇|章|张)|前のページ|前へ','^\bprev|previous\b','\bprev|previous\b','\bprécédent\b','^(<|‹)$','^(<<|«)$','^(<|«)','(<|«)$'
+set visualbell
+
+"qmark n news.baidu.com
+"qmark p http://5digits.org/home
+"qmark y www.yahoo.com
+"qmark i www.iqiyi.com
+"qmark u http://forum.ubuntu.org.cn
+"qmark l https://linuxtoy.org/
+"qmark b www.bitbucket.org
+qmark t www.taobao.com
+"qmark m www.mail.com
+"qmark j http://127.0.0.1

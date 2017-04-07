@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mimetypes">
+    <NC:MIME-types RDF:resource="urn:mimetypes:root"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:http://compose.mail.yahoo.com/?To=%s"
+                   NC:prettyName="Yahoo! 邮件"
+                   NC:uriTemplate="http://compose.mail.yahoo.com/?To=%s" />
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-xpinstall"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true"
+                   NC:useSystemDefault="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-xpinstall"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:root"
+                   NC:zh-CN_defaultHandlersVersion="3" />
+  <RDF:Description RDF:about="urn:scheme:mailto"
+                   NC:value="mailto">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:mailto"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:video/mp4"
+                   NC:value="video/mp4"
+                   NC:editable="true"
+                   NC:fileExtensions="mp4"
+                   NC:description="MP4 - MPEG-4 电影文件">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:video/mp4"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:http://30boxes.com/external/widget?refer=ff&amp;url=%s"
+                   NC:prettyName="30 个盒子"
+                   NC:uriTemplate="http://30boxes.com/external/widget?refer=ff&amp;url=%s" />
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-bittorrent"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-bittorrent"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:handler:web:https://mail.google.com/mail/?extsrc=mailto&amp;url=%s"
+                   NC:prettyName="Gmail"
+                   NC:uriTemplate="https://mail.google.com/mail/?extsrc=mailto&amp;url=%s" />
+  <RDF:Description RDF:about="urn:mimetype:handler:&quot;image/jpeg&quot;"
+                   NC:alwaysAsk="false"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:&quot;image/jpeg&quot;"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:&quot;image/png&quot;"
+                   NC:value="&quot;image/png&quot;"
+                   NC:editable="true"
+                   NC:fileExtensions="png"
+                   NC:description="">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:&quot;image/png&quot;"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/zip"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/zip"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:ircs"
+                   NC:value="ircs">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:ircs"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:mailto"
+                   NC:useSystemDefault="true"
+                   NC:alwaysAsk="false">
+    <NC:possibleApplication RDF:resource="urn:handler:web:http://compose.mail.yahoo.com/?To=%s"/>
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://mail.google.com/mail/?extsrc=mailto&amp;url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:text/html"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:text/html"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:text/x-vcard"
+                   NC:value="text/x-vcard"
+                   NC:editable="true"
+                   NC:fileExtensions="vcf"
+                   NC:description="vCard File">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:text/x-vcard"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/pdf"
+                   NC:value="application/pdf">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/pdf"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/x-xpinstall"
+                   NC:fileExtensions="xpi"
+                   NC:description="XPInstall Install"
+                   NC:value="application/x-xpinstall"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-xpinstall"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:schemes:root">
+    <RDF:li RDF:resource="urn:scheme:webcal"/>
+    <RDF:li RDF:resource="urn:scheme:ircs"/>
+    <RDF:li RDF:resource="urn:scheme:mailto"/>
+    <RDF:li RDF:resource="urn:scheme:irc"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scheme:irc"
+                   NC:value="irc">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:irc"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:webcal"
+                   NC:value="webcal">
+    <NC:handlerProp RDF:resource="urn:scheme:handler:webcal"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:&quot;image/jpeg&quot;"
+                   NC:fileExtensions="jpg"
+                   NC:description=""
+                   NC:value="&quot;image/jpeg&quot;"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:&quot;image/jpeg&quot;"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:chemical/x-chemdraw"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:chemical/x-chemdraw"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:image/x-icon"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:image/x-icon"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:text/csv"
+                   NC:value="text/csv"
+                   NC:editable="true"
+                   NC:fileExtensions="csv"
+                   NC:description="Microsoft Excel 工作表">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:text/csv"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:text/html"
+                   NC:value="text/html"
+                   NC:editable="true"
+                   NC:fileExtensions="htm"
+                   NC:description="HTML Document">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:text/html"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/pdf"
+                   NC:handleInternal="true"
+                   NC:alwaysAsk="false" />
+  <RDF:Description RDF:about="urn:mimetype:text/plain"
+                   NC:value="text/plain"
+                   NC:editable="true"
+                   NC:fileExtensions="txt"
+                   NC:description="Text Document">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:text/plain"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-iso9660-image"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-iso9660-image"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/x-iso9660-image"
+                   NC:value="application/x-iso9660-image"
+                   NC:editable="true"
+                   NC:fileExtensions="iso"
+                   NC:description="">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-iso9660-image"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:schemes">
+    <NC:Protocol-Schemes RDF:resource="urn:schemes:root"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/x-bittorrent"
+                   NC:value="application/x-bittorrent"
+                   NC:editable="true"
+                   NC:fileExtensions="torrent"
+                   NC:description="">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-bittorrent"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/msword"
+                   NC:fileExtensions="doc"
+                   NC:description="Microsoft Word 文档"
+                   NC:value="application/msword"
+                   NC:editable="true">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/msword"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:text/x-vcard"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:text/x-vcard"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:image/x-icon"
+                   NC:value="image/x-icon"
+                   NC:editable="true"
+                   NC:fileExtensions="ico"
+                   NC:description="Icon">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:image/x-icon"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/msword"
+                   NC:alwaysAsk="true"
+                   NC:useSystemDefault="true"
+                   NC:saveToDisk="false">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/msword"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:webcal"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:web:http://30boxes.com/external/widget?refer=ff&amp;url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/mspowerpoint"
+                   NC:value="application/mspowerpoint"
+                   NC:editable="true"
+                   NC:fileExtensions="ppt"
+                   NC:description="Microsoft PowerPoint 幻灯片">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/mspowerpoint"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mimetypes:root">
+    <RDF:li RDF:resource="urn:mimetype:application/pdf"/>
+    <RDF:li RDF:resource="urn:mimetype:application/x-xpinstall"/>
+    <RDF:li RDF:resource="urn:mimetype:text/plain"/>
+    <RDF:li RDF:resource="urn:mimetype:application/zip"/>
+    <RDF:li RDF:resource="urn:mimetype:image/x-icon"/>
+    <RDF:li RDF:resource="urn:mimetype:application/x-iso9660-image"/>
+    <RDF:li RDF:resource="urn:mimetype:&quot;image/jpeg&quot;"/>
+    <RDF:li RDF:resource="urn:mimetype:application/msword"/>
+    <RDF:li RDF:resource="urn:mimetype:&quot;image/png&quot;"/>
+    <RDF:li RDF:resource="urn:mimetype:chemical/x-chemdraw"/>
+    <RDF:li RDF:resource="urn:mimetype:application/mspowerpoint"/>
+    <RDF:li RDF:resource="urn:mimetype:application/x-bittorrent"/>
+    <RDF:li RDF:resource="urn:mimetype:text/html"/>
+    <RDF:li RDF:resource="urn:mimetype:text/x-vcard"/>
+    <RDF:li RDF:resource="urn:mimetype:video/mp4"/>
+    <RDF:li RDF:resource="urn:mimetype:text/csv"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:handler:web:https://www.mibbit.com/?url=%s"
+                   NC:prettyName="Mibbit"
+                   NC:uriTemplate="https://www.mibbit.com/?url=%s" />
+  <RDF:Description RDF:about="urn:mimetype:handler:&quot;image/png&quot;"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:&quot;image/png&quot;"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:text/plain"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:text/plain"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:application/zip"
+                   NC:value="application/zip"
+                   NC:editable="true"
+                   NC:fileExtensions="zip"
+                   NC:description="Compressed (zipped) Folder">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/zip"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:text/csv"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:text/csv"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:irc"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://www.mibbit.com/?url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:chemical/x-chemdraw"
+                   NC:value="chemical/x-chemdraw"
+                   NC:editable="true"
+                   NC:fileExtensions="chm"
+                   NC:description="Compiled HTML Help file">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:chemical/x-chemdraw"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:application/mspowerpoint"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/mspowerpoint"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:scheme:handler:ircs"
+                   NC:alwaysAsk="true">
+    <NC:possibleApplication RDF:resource="urn:handler:web:https://www.mibbit.com/?url=%s"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:handler:video/mp4"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:video/mp4"/>
+  </RDF:Description>
+</RDF:RDF>
