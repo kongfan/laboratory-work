@@ -17,12 +17,16 @@
 $
 
 # Command Line History (newest to oldest):
+:help
+|2,0,1491572350,,"help"
+:set helplang=cn
+|2,0,1491572343,,"set helplang=cn"
+:help pymode
+|2,0,1491572321,,"help pymode"
+:w
+|2,0,1491572308,,"w"
 :close
 |2,0,1491312856,,"close"
-:help
-|2,0,1491312847,,"help"
-:set helplang=cn
-|2,0,1491312841,,"set helplang=cn"
 :help 
 |2,0,1491312826,,"help "
 :q
@@ -33,8 +37,6 @@ $
 |2,0,1491312789,,"r 1.py"
 :help cn
 |2,0,1491310830,,"help cn"
-:help pymode
-|2,0,1491310759,,"help pymode"
 :wq 1.py
 |2,0,1491310722,,"wq 1.py"
 :wq
@@ -55,8 +57,6 @@ $
 |2,0,1491235671,,"!pytho %"
 :vsp
 |2,0,1491235639,,"vsp"
-:w
-|2,0,1491235573,,"w"
 :close!
 |2,0,1491235551,,"close!"
 :set syntax on
@@ -126,34 +126,50 @@ $
 |3,1,36,0,1,0,1491310778,"\\"
 
 # File marks:
-'0  1  0  ~\vimfiles\doc\usr_45.cnx
-|4,48,1,0,1491312889,"~\\vimfiles\\doc\\usr_45.cnx"
-'1  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
-|4,49,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+'0  11  40  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\help.txt
+|4,48,11,40,1491574743,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
+'1  1  0  ~\vimfiles\doc\usr_45.cnx
+|4,49,1,0,1491312889,"~\\vimfiles\\doc\\usr_45.cnx"
 '2  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
 |4,50,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
 '3  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
 |4,51,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
 '4  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
 |4,52,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
-'5  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,53,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
-'6  38  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,54,38,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
-'7  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,55,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
-'8  1  0  C:\Users\kongfan\Desktop\develop\gVimPortable\gVimPortable.exe
-|4,56,1,0,1491238393,"C:\\Users\\kongfan\\Desktop\\develop\\gVimPortable\\gVimPortable.exe"
-'9  38  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,57,38,13,1491238216,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+'5  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,53,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+'6  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,54,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+'7  38  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,55,38,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+'8  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,56,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+'9  1  0  C:\Users\kongfan\Desktop\develop\gVimPortable\gVimPortable.exe
+|4,57,1,0,1491238393,"C:\\Users\\kongfan\\Desktop\\develop\\gVimPortable\\gVimPortable.exe"
 
 # Jumplist (newest first):
+-'  11  40  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\help.txt
+|4,39,11,40,1491574743,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
+-'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\help.txt
+|4,39,1,0,1491572350,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
+-'  3  22  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\help.txt
+|4,39,3,22,1491572346,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
+-'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
+|4,39,1,0,1491572113,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\ticks.py"
+-'  1  0  ~\vimfiles\doc\usr_45.cnx
+|4,39,1,0,1491312889,"~\\vimfiles\\doc\\usr_45.cnx"
 -'  1  0  ~\vimfiles\doc\usr_45.cnx
 |4,39,1,0,1491312889,"~\\vimfiles\\doc\\usr_45.cnx"
 -'  39  0  ~\vimfiles\doc\usr_45.cnx
 |4,39,39,0,1491312888,"~\\vimfiles\\doc\\usr_45.cnx"
+-'  39  0  ~\vimfiles\doc\usr_45.cnx
+|4,39,39,0,1491312888,"~\\vimfiles\\doc\\usr_45.cnx"
 -'  82  0  ~\vimfiles\doc\help.cnx
 |4,39,82,0,1491312882,"~\\vimfiles\\doc\\help.cnx"
+-'  82  0  ~\vimfiles\doc\help.cnx
+|4,39,82,0,1491312882,"~\\vimfiles\\doc\\help.cnx"
+-'  1  9  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\App\vim\vim80\doc\help.txt
+|4,39,1,9,1491312847,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
 -'  1  9  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\App\vim\vim80\doc\help.txt
 |4,39,1,9,1491312847,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
 -'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
@@ -168,6 +184,30 @@ $
 |4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
 -'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
 |4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  4  10  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,4,10,1491310722,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
+-'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
+|4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
 -'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
 |4,39,1,0,1491310567,"C:\\Users\\kongfan\\Desktop\\Document\\develop\\gVimPortable\\1.py"
 -'  1  0  C:\Users\kongfan\Desktop\Document\develop\gVimPortable\1.py
@@ -212,6 +252,38 @@ $
 |4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
 -'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
 |4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
+-'  19  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
+|4,39,19,0,1491238494,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
 -'  34  3  C:\Users\kongfan\Desktop\develop\repository\ticks.py
 |4,39,34,3,1491238486,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
 -'  38  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
@@ -276,78 +348,20 @@ $
 |4,39,34,3,1491238486,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
 -'  38  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
 |4,39,38,13,1491238486,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238472,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  36  13  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,36,13,1491238446,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238430,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238430,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
--'  1  0  C:\Users\kongfan\Desktop\develop\repository\ticks.py
-|4,39,1,0,1491238430,"C:\\Users\\kongfan\\Desktop\\develop\\repository\\ticks.py"
 
 # History of marks within files (newest to oldest):
+
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\help.txt
+	*	1491574741	0
+	"	11	40
+
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
+	*	1491572352	0
+	"	12	0
+	^	4	1
+	.	4	0
+	+	5	6
+	+	4	0
 
 > ~\vimfiles\doc\usr_45.cnx
 	*	1491312888	0
@@ -357,11 +371,7 @@ $
 	*	1491312880	0
 	"	82	0
 
-> C:\Users\kongfan\Desktop\Document\develop\gVimPortable\App\vim\vim80\doc\help.txt
-	*	1491312844	0
-	"	1	9
-
-> C:\Users\kongfan\Desktop\Document\develop\gVimPortable\App\vim\vim80\doc\quickfix.txt
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\quickfix.txt
 	*	1491311017	0
 	"	87	34
 
@@ -369,7 +379,7 @@ $
 	*	1491310759	0
 	"	1	33
 
-> C:\Users\kongfan\Desktop\Document\develop\repository\ticks.py
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\develop\repository\ticks.py
 	*	1491238491	0
 	"	19	0
 	^	39	0
@@ -381,15 +391,15 @@ $
 	+	38	0
 	+	19	0
 
-> C:\Users\kongfan\Desktop\Document\Document\develop\gVimPortable\gVimPortable.exe
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\Document\develop\gVimPortable\gVimPortable.exe
 	*	1491238392	0
 	"	1	0
 
-> C:\Users\kongfan\Desktop\Document\Document\develop\gVimPortable\App\vim\vim80\doc\map.txt
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\Document\develop\gVimPortable\App\vim\vim80\doc\map.txt
 	*	1491236448	0
 	"	537	5
 
-> C:\Users\kongfan\Desktop\Document\Document\develop\gVimPortable\__run__
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\Document\develop\gVimPortable\__run__
 	*	1491198240	0
 	"	12	0
 	.	1	0

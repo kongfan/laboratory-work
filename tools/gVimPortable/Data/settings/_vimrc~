@@ -6,7 +6,6 @@ behave mswin
 set encoding=utf-8
 set nu
 set hls
-set helplang=cn
 
 " Pathogen load
 " filetype off
