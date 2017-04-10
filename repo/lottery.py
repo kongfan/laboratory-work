@@ -36,3 +36,4 @@ print list_actual
 
 for n in range(0,14):
 	print n+4,list_actual[n]*list_theoretical[n]
+
