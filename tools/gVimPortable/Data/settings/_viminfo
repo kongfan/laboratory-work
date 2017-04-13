@@ -17,16 +17,50 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1492064587,,"q"
+:w
+|2,0,1492064509,,"w"
+:e.
+|2,0,1492064252,,"e."
+:cd c:\
+|2,0,1492064243,,"cd c:\\"
+:cd c:
+|2,0,1492064238,,"cd c:"
+:.ll
+|2,0,1492064177,,".ll"
+:pclose
+|2,0,1492057423,,"pclose"
+:e .
+|2,0,1492052502,,"e ."
+:pclsoe
+|2,0,1492005682,,"pclsoe"
+:set nowrap
+|2,0,1492005569,,"set nowrap"
+:set wrap
+|2,0,1492005307,,"set wrap"
+:set textwidth=80
+|2,0,1492003555,,"set textwidth=80"
+:set http://1.202.247.200/netreport/reportInfor/reportInfor?areaPath=%25E6%25B9%2596%25E5%258C%2597%25E7%259C%2581%25E9%25BB%2584%25E5%2586%2588%25E5%25B8%2582%25E6%25B5%25A0%25E6%25B0%25B4%25E5%258E%25BF&city=%25E9%25BB%2584%25E5%2586%2588%25E5%25B8%2582
+|2,0,1492003537,,"set http://1.202.247.200/netreport/reportInfor/reportInfor?areaPath=%25E6%25B9%2596%25E5%258C%2597%25E7%259C%2581%25E9%25BB%2584%25E5%2586%2588%25E5%25B8%2582%25E6%25B5%25A0%25E6%25B0%25B4%25E5%258E%25BF&city=%25E9%25BB%2584%25E5%2586%2588%25E5%25B8%2582"
+:w 12369.py
+|2,0,1492002461,,"w 12369.py"
+:help pymode
+|2,0,1491920525,,"help pymode"
+:let g:pymode=1
+|2,0,1491918634,,"let g:pymode=1"
+:help 
+|2,0,1491918202,,"help "
+:q!
+|2,0,1491918160,,"q!"
+:py print "ni"
+|2,0,1491918040,,"py print \"ni\""
 :python %
 |2,0,1491718649,,"python %"
-:e.
-|2,0,1491718578,,"e."
 :let g:pymode_python = "python3"
 |2,0,1491718571,,"let g:pymode_python = \"python3\""
 :close
 |2,0,1491718502,,"close"
-:help pymode
-|2,0,1491718490,,"help pymode"
 :ls
 |2,0,1491707501,,"ls"
 :cd -
@@ -35,18 +69,12 @@ $
 |2,0,1491707132,,"cd-"
 :pwd
 |2,0,1491707098,,"pwd"
-:q
-|2,0,1491706611,,"q"
 :vsp
 |2,0,1491704331,,"vsp"
 :clsoe
 |2,0,1491704322,,"clsoe"
 :help
 |2,0,1491704318,,"help"
-:e .
-|2,0,1491704286,,"e ."
-:w
-|2,0,1491703727,,"w"
 :edit
 |2,0,1491703412,,"edit"
 :set nu
@@ -77,8 +105,6 @@ $
 |2,0,1491662449,,"set"
 :set helplang=cn
 |2,0,1491572343,,"set helplang=cn"
-:help 
-|2,0,1491312826,,"help "
 :syntax on
 |2,0,1491312802,,"syntax on"
 :r 1.py
@@ -126,9 +152,9 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1491718665,,"\\s\\+$"
+|2,1,1492064509,,"\\s\\+$"
 ? @$
-|2,1,1491718586,,"@$"
+|2,1,1492064229,,"@$"
 ?/test 3
 |2,1,1491663392,47,"test 3"
 ?/<leader>
@@ -153,273 +179,369 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	test/
-	gVimPortable.exe*
-|3,1,0,1,2,0,1491718591,"test/","gVimPortable.exe*"
-"1	BLOCK	26
-	._vimrc.un~                
-	_vimrc~                    
-|3,0,1,2,2,26,1491706731,"._vimrc.un~                ","_vimrc~                    "
-"2	BLOCK	26
-	_viminfo                   
-	_vimrc                     
-	gVimPortableSettings.ini   
-|3,0,2,2,3,26,1491706731,"_viminfo                   ","_vimrc                     ","gVimPortableSettings.ini   "
-"3	BLOCK	26
-	._vimrc.un~                
-	_vimrc~                    
-|3,0,3,2,2,26,1491706730,"._vimrc.un~                ","_vimrc~                    "
-"4	BLOCK	26
-	_viminfo                   
-	_vimrc                     
-	gVimPortableSettings.ini   
-|3,0,4,2,3,26,1491706730,"_viminfo                   ","_vimrc                     ","gVimPortableSettings.ini   "
-"5	BLOCK	26
-	._vimrc.un~                
-	_vimrc~                    
-|3,0,5,2,2,26,1491706724,"._vimrc.un~                ","_vimrc~                    "
-"6	BLOCK	26
-	_viminfo                   
-	_vimrc                     
-	gVimPortableSettings.ini   
-|3,0,6,2,3,26,1491706724,"_viminfo                   ","_vimrc                     ","gVimPortableSettings.ini   "
+"0	CHAR	0
+	 
+|3,0,0,0,1,0,1492064252," "
+"1	LINE	0
+	        d
+|3,0,1,1,1,0,1492064314,"        d"
+"2	LINE	0
+	k
+|3,0,2,1,1,0,1492064305,"k"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1492057485,""
+"4	LINE	0
+	
+|3,0,4,1,1,0,1492057251,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1492057181,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1492057152,""
 "7	LINE	0
-	.ropeproject/
-|3,0,7,1,1,0,1491704062,".ropeproject/"
+	
+|3,0,7,1,1,0,1492057130,""
 "8	LINE	0
-	../
-|3,0,8,1,1,0,1491704062,"../"
+	
+|3,0,8,1,1,0,1492057118,""
 "9	LINE	0
-	./
-|3,0,9,1,1,0,1491704062,"./"
+	
+|3,0,9,1,1,0,1492057073,""
+"a@	CHAR	0
+	i j
+|3,2,10,0,1,0,1491918565,"i j"
 "-	CHAR	0
 	 
-|3,0,36,0,1,0,1491700902," "
+|3,0,36,0,1,0,1492057488," "
 
 # File marks:
-'0  39  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,48,39,0,1491718665,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
-'1  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,49,19,0,1491710103,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
-'2  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,50,19,0,1491710103,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
-'3  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,51,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
-'4  4  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
-|4,52,4,0,1491700931,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\ticks.py"
-'5  4  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
-|4,53,4,0,1491700931,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\ticks.py"
-'6  78  0  ~\vimfiles\doc\pymode.txt
-|4,54,78,0,1491664272,"~\\vimfiles\\doc\\pymode.txt"
-'7  208  0  ~\vimfiles\doc\usr_03.cnx
-|4,55,208,0,1491662451,"~\\vimfiles\\doc\\usr_03.cnx"
-'8  208  0  ~\vimfiles\doc\usr_03.cnx
-|4,56,208,0,1491662451,"~\\vimfiles\\doc\\usr_03.cnx"
-'9  11  40  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\App\vim\vim80\doc\help.txt
-|4,57,11,40,1491574743,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\App\\vim\\vim80\\doc\\help.txt"
+'0  1  0  C:\yaozhi\yaozhi\spiders\yaozhi.py
+|4,48,1,0,1492064587,"C:\\yaozhi\\yaozhi\\spiders\\yaozhi.py"
+'1  1  536  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+|4,49,1,536,1492009162,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\__run__"
+'2  2  536  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+|4,50,2,536,1492009162,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\__run__"
+'3  163  0  ~\vimfiles\doc\pymode.txt
+|4,51,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+'4  37  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\33.py
+|4,52,37,0,1491918160,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\33.py"
+'5  39  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
+|4,53,39,0,1491718665,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
+'6  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
+|4,54,19,0,1491710103,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
+'7  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
+|4,55,19,0,1491710103,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
+'8  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
+|4,56,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
+'9  4  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
+|4,57,4,0,1491700931,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\ticks.py"
 
 # Jumplist (newest first):
--'  39  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,39,39,0,1491718665,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
--'  39  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,39,39,0,1491718665,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
--'  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,39,19,0,1491718630,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
--'  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,39,19,0,1491718630,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
--'  14  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo
-|4,39,14,0,1491718591,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo"
--'  14  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo
-|4,39,14,0,1491718591,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Data\
-|4,39,1,0,1491718583,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Data\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Data\
-|4,39,1,0,1491718583,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Data\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491718581,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491718581,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  131  57  ~\vimfiles\doc\pymode.txt
-|4,39,131,57,1491718578,"~\\vimfiles\\doc\\pymode.txt"
--'  131  57  ~\vimfiles\doc\pymode.txt
-|4,39,131,57,1491718578,"~\\vimfiles\\doc\\pymode.txt"
--'  16  75  ~\vimfiles\doc\pymode.txt
-|4,39,16,75,1491718521,"~\\vimfiles\\doc\\pymode.txt"
--'  16  75  ~\vimfiles\doc\pymode.txt
-|4,39,16,75,1491718521,"~\\vimfiles\\doc\\pymode.txt"
--'  112  4  ~\vimfiles\doc\pymode.txt
-|4,39,112,4,1491718511,"~\\vimfiles\\doc\\pymode.txt"
--'  112  4  ~\vimfiles\doc\pymode.txt
-|4,39,112,4,1491718511,"~\\vimfiles\\doc\\pymode.txt"
--'  1  0  ~\vimfiles\doc\pymode.txt
-|4,39,1,0,1491718490,"~\\vimfiles\\doc\\pymode.txt"
--'  1  0  ~\vimfiles\doc\pymode.txt
-|4,39,1,0,1491718490,"~\\vimfiles\\doc\\pymode.txt"
--'  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,39,19,0,1491710103,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
--'  19  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
-|4,39,19,0,1491710103,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\lottery.py"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo
-|4,39,1,0,1491708872,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo
-|4,39,1,0,1491708872,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work
-|4,39,11,0,1491708864,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work
-|4,39,11,0,1491708864,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work
-|4,39,11,0,1491708864,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work
-|4,39,11,0,1491708864,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work"
+-'  1  0  C:\yaozhi\yaozhi\spiders\yaozhi.py
+|4,39,1,0,1492064587,"C:\\yaozhi\\yaozhi\\spiders\\yaozhi.py"
+-'  9  48  C:\yaozhi\yaozhi\spiders\yaozhi.py
+|4,39,9,48,1492064498,"C:\\yaozhi\\yaozhi\\spiders\\yaozhi.py"
+-'  1  0  C:\
+|4,39,1,0,1492064283,"C:\\"
+-'  12  0  C:\Users
+|4,39,12,0,1492064248,"C:\\Users"
+-'  1  0  C:\Users
+|4,39,1,0,1492064229,"C:\\Users"
+-'  8  0  C:\Users\Administrator.PC-20160123DUKL
+|4,39,8,0,1492064207,"C:\\Users\\Administrator.PC-20160123DUKL"
+-'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop
+|4,39,8,0,1492064206,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop"
+-'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work
+|4,39,8,0,1492064206,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work"
 -'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools
-|4,39,8,0,1491708862,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools"
--'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools
-|4,39,8,0,1491708862,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools"
--'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools
-|4,39,8,0,1491708862,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools"
--'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools
-|4,39,8,0,1491708862,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools"
+|4,39,8,0,1492064205,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools"
 -'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,8,0,1491708859,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,8,0,1491708859,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Data\
-|4,39,8,0,1491708856,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Data\\"
--'  8  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Data\
-|4,39,8,0,1491708856,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Data\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Data\
-|4,39,1,0,1491708849,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Data\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Data\
-|4,39,1,0,1491708849,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Data\\"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\README
-|4,39,11,0,1491708831,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\README"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\README
-|4,39,11,0,1491708831,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\README"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\README
-|4,39,11,0,1491708831,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\README"
--'  11  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\README
-|4,39,11,0,1491708831,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\repo\\README"
+|4,39,8,0,1492064204,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
 -'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491708758,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491708758,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  34  0  ~\_vimrc
-|4,39,34,0,1491707297,"~\\_vimrc"
--'  34  0  ~\_vimrc
-|4,39,34,0,1491707297,"~\\_vimrc"
--'  34  0  ~\_vimrc
-|4,39,34,0,1491707297,"~\\_vimrc"
--'  34  0  ~\_vimrc
-|4,39,34,0,1491707297,"~\\_vimrc"
--'  28  2  ~\_vimrc
-|4,39,28,2,1491707277,"~\\_vimrc"
--'  28  2  ~\_vimrc
-|4,39,28,2,1491707277,"~\\_vimrc"
--'  28  2  ~\_vimrc
-|4,39,28,2,1491707277,"~\\_vimrc"
--'  28  2  ~\_vimrc
-|4,39,28,2,1491707277,"~\\_vimrc"
--'  1  0  ~\
-|4,39,1,0,1491707263,"~\\"
--'  1  0  ~\
-|4,39,1,0,1491707263,"~\\"
--'  1  0  ~\
-|4,39,1,0,1491707263,"~\\"
--'  1  0  ~\
-|4,39,1,0,1491707263,"~\\"
--'  29  0  ~\_vimrc
-|4,39,29,0,1491706585,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1491706585,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1491706585,"~\\_vimrc"
--'  29  0  ~\_vimrc
-|4,39,29,0,1491706585,"~\\_vimrc"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\Help\
-|4,39,1,0,1491706478,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\Help\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\Help\
-|4,39,1,0,1491706478,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\Help\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\Help\
-|4,39,1,0,1491706478,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\Help\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\Help\
-|4,39,1,0,1491706478,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\Help\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\
-|4,39,1,0,1491706477,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\
-|4,39,1,0,1491706477,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\
-|4,39,1,0,1491706477,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\Other\
-|4,39,1,0,1491706477,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\Other\\"
--'  31  31  ~\vimfiles\doc\help.cnx
-|4,39,31,31,1491706454,"~\\vimfiles\\doc\\help.cnx"
--'  31  31  ~\vimfiles\doc\help.cnx
-|4,39,31,31,1491706454,"~\\vimfiles\\doc\\help.cnx"
--'  31  31  ~\vimfiles\doc\help.cnx
-|4,39,31,31,1491706454,"~\\vimfiles\\doc\\help.cnx"
--'  31  31  ~\vimfiles\doc\help.cnx
-|4,39,31,31,1491706454,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704318,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704318,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704318,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704318,"~\\vimfiles\\doc\\help.cnx"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  2  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\NetrwMessage
-|4,39,2,0,1491704310,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\NetrwMessage"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704286,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704286,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704286,"~\\vimfiles\\doc\\help.cnx"
--'  1  0  ~\vimfiles\doc\help.cnx
-|4,39,1,0,1491704286,"~\\vimfiles\\doc\\help.cnx"
+|4,39,1,0,1492064202,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
+-'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,1,0,1492056659,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,1,0,1492056659,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
 -'  14  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,14,0,1491704231,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  14  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,14,0,1491704231,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  14  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,14,0,1491704231,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  14  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,14,0,1491704231,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491704100,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491704100,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491704100,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable
-|4,39,1,0,1491704100,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
--'  22  9  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\help.html
-|4,39,22,9,1491703735,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\help.html"
--'  22  9  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\help.html
-|4,39,22,9,1491703735,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\help.html"
--'  22  9  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\help.html
-|4,39,22,9,1491703735,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\help.html"
--'  22  9  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\help.html
-|4,39,22,9,1491703735,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\help.html"
--'  22  9  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\help.html
-|4,39,22,9,1491703735,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\help.html"
+|4,39,14,0,1492052509,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable"
+-'  1  536  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+|4,39,1,536,1492009162,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\__run__"
+-'  2  536  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+|4,39,2,536,1492009162,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\__run__"
+-'  1  536  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+|4,39,1,536,1492009162,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\__run__"
+-'  2  536  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+|4,39,2,536,1492009162,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\__run__"
+-'  12  19  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,12,19,1492007799,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  12  19  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,12,19,1492007799,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  12  19  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,12,19,1492007799,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  12  19  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,12,19,1492007799,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  13  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,13,0,1492007745,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  13  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,13,0,1492007745,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  13  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,13,0,1492007745,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  13  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,13,0,1492007745,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  6  274  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,6,274,1492006466,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  6  274  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,6,274,1492006466,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  6  274  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,6,274,1492006466,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  6  274  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,6,274,1492006466,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,1,0,1491999863,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  1  0  C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+|4,39,1,0,1491999863,"C:\\Users\\Administrator.PC-20160123DUKL\\Desktop\\laboratory-work\\tools\\gVimPortable\\12369.py"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  163  0  ~\vimfiles\doc\pymode.txt
+|4,39,163,0,1491921273,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  15  66  ~\vimfiles\doc\pymode.txt
+|4,39,15,66,1491920536,"~\\vimfiles\\doc\\pymode.txt"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  309  0  ~\vimfiles\doc\usr_29.cnx
+|4,39,309,0,1491920525,"~\\vimfiles\\doc\\usr_29.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  71  0  ~\vimfiles\doc\help.cnx
+|4,39,71,0,1491920496,"~\\vimfiles\\doc\\help.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  15  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,15,0,1491920475,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  14  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,14,0,1491920472,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  716  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,716,0,1491920463,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  13  0  ~\vimfiles\doc\usr_10.cnx
+|4,39,13,0,1491918220,"~\\vimfiles\\doc\\usr_10.cnx"
+-'  57  0  ~\vimfiles\doc\help.cnx
+|4,39,57,0,1491918214,"~\\vimfiles\\doc\\help.cnx"
+-'  57  0  ~\vimfiles\doc\help.cnx
+|4,39,57,0,1491918214,"~\\vimfiles\\doc\\help.cnx"
 
 # History of marks within files (newest to oldest):
+
+> C:\yaozhi\yaozhi\spiders\yaozhi.py
+	*	1492064586	0
+	"	1	0
+	.	32	0
+	+	23	0
+	+	32	0
+
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\12369.py
+	*	1492064178	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	14	5
+	+	6	21
+	+	7	16
+	+	8	16
+	+	9	16
+	+	10	16
+	+	6	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	7	77
+	+	8	77
+	+	9	77
+	+	6	79
+	+	7	77
+	+	8	77
+	+	9	77
+	+	7	76
+	+	8	76
+	+	9	76
+	+	8	0
+	+	15	13
+	+	16	19
+	+	15	29
+	+	16	13
+	+	15	26
+	+	16	13
+	+	15	14
+	+	15	0
+	+	15	12
+	+	13	18
+	+	15	12
+	+	16	0
+
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\__run__
+	*	1492057251	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~\vimfiles\doc\pymode.txt
+	*	1491921267	0
+	"	163	0
+
+> ~\vimfiles\doc\usr_29.cnx
+	*	1491920518	0
+	"	309	0
+
+> ~\vimfiles\doc\help.cnx
+	*	1491920494	0
+	"	71	0
+
+> ~\vimfiles\doc\usr_10.cnx
+	*	1491920473	0
+	"	15	0
+
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
+	*	1491919654	0
+	"	11	10
+	^	34	41
+	.	34	40
+	+	5	6
+	+	4	0
+	+	20	0
+	+	35	0
+	+	1	0
+	+	21	40
+	+	22	0
+	+	15	39
+	+	14	12
+	+	21	40
+	+	22	40
+	+	21	40
+	+	22	40
+	+	21	40
+	+	22	40
+	+	25	40
+	+	31	40
+	+	33	40
+	+	34	40
+
+> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\33.py
+	*	1491918156	0
+	"	37	0
+	.	20	0
+	+	19	0
+	+	20	0
 
 > C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\lottery.py
 	*	1491718640	0
@@ -428,10 +550,6 @@ $
 	.	39	0
 	+	19	0
 	+	39	0
-
-> ~\vimfiles\doc\pymode.txt
-	*	1491718571	0
-	"	131	57
 
 > C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\README
 	*	1491708826	0
@@ -452,10 +570,6 @@ $
 	+	11	0
 	+	10	0
 
-> ~\vimfiles\doc\help.cnx
-	*	1491707662	0
-	"	66	0
-
 > ~\vimfiles\doc\usr_22.cnx
 	*	1491707658	0
 	"	363	8
@@ -475,21 +589,6 @@ $
 > C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\tools\gVimPortable\help.html
 	*	1491703732	0
 	"	22	9
-
-> C:\Users\Administrator.PC-20160123DUKL\Desktop\laboratory-work\repo\ticks.py
-	*	1491703309	0
-	"	20	0
-	^	14	13
-	.	14	12
-	+	5	6
-	+	4	0
-	+	20	0
-	+	35	0
-	+	1	0
-	+	21	40
-	+	22	0
-	+	15	39
-	+	14	12
 
 > ~\vimfiles\doc\usr_03.cnx
 	*	1491702361	0
