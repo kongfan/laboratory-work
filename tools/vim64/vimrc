@@ -1,0 +1,27 @@
+set nocp
+set nu
+set hls
+set helplang=cn
+
+set guioptions-=T
+set guioptions-=L
+set guioptions-=r
+set guioptions-=b
+au GUIEnter * simalt ~x
+
+
+
+
+" Pathogen load
+filetype off
+
+call pathogen#infect()
+call pathogen#helptags()
+
+filetype plugin indent on
+syntax on
+
+
+exec 'cd ' . fnameescape('C:\Users\kongfan\Desktop\Document\portabgit\laboratory-work')  
+set autochdir
+
