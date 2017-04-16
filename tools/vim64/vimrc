@@ -2,6 +2,7 @@ set nocp
 set nu
 set hls
 set helplang=cn
+set encoding=utf-8
 
 set guioptions-=T
 set guioptions-=L
