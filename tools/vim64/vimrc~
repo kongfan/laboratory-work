@@ -11,7 +11,7 @@ set guioptions-=b
 
 au GUIEnter * simalt ~x
 
-imap jj <ESC>
+imap jj <esc>
 
 
 " Pathogen load
