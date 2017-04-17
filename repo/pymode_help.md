@@ -119,6 +119,7 @@ Keybinding
 
 Uses almost the same keybinding as ropemacs. Note that global commands have a C-x p prefix and local commands have a C-c r prefix. You can change that (see variables section).
 
+
 C-x p o 	RopeOpenProject
 C-x p k 	RopeCloseProject
 C-x p f 	RopeFindFile
@@ -155,6 +156,11 @@ C-c r a c 	RopeShowCalltip
 	  	RopeAnalyzeModule
   		RopeAutoImport
   		RopeGenerateAutoimportCache
+M-/ 		RopeCodeAssist
+M-? 		RopeLuckyAssist
+C-c g 		RopeGotoDefinition
+C-c d 		RopeShowDoc
+C-c f 		RopeFindOccurrences
 
 pymode 支持rope重构，补全及各种辅助操作，开启rope模式： let g:pymode_rope = 1
 
@@ -166,4 +172,14 @@ pymode 支持rope重构，补全及各种辅助操作，开启rope模式： let 
     :PymodeRopeRenameModule -- Rename current module
     :PymodeRopeUndo -- Undo changes from last refactoring
     
-    
+.ropeproject 文件夹一般在项目文件夹的上一级目录生成，项目文件夹中所有子目录都利用此.ropeproject 文件夹进行工作。    
+
+通过rope可以很方便的查看光标下对象的文档： let g:pymode_rope_show_doc_bind = '<C-c>d'
+
+rope 补全
+
+一般情况想，同时按下ctrl-space键可以自动补全，按下enter键，第一个提示项会自动插入代码中。按快捷键<C-X><C-O> and <C-P>/<C-N>同样也会达到相同的目的。
+
+查看定义
+
+我们可以按下<C-C>g查看对象的定义 let g:pymode_rope_goto_definition_bind = '<C-c>g'
