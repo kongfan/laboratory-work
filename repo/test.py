@@ -1,7 +1,6 @@
 # http://python3-cookbook.readthedocs.io/zh_CN/latest/
+
 import getpass
-
-
 
 
 
@@ -14,7 +13,7 @@ age, sex, _, price = a
 print age, sex, price
 
 
-pass = getpass.getpass()
+pass = getpass.getpass('Password:', stream=None)
 
 
 def login(pass):
