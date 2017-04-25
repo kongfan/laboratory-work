@@ -12,11 +12,18 @@ import time
 import easytrader
 import tushare as ts
 
+with open('deal.csv', 'a') as f:
+    mesg = time.strftime("%Y-%m-%d", time.localtime(time.time()))
+    f.write(mesg)
+
 try:
         user = easytrader.use('yh', debug=False)
         user.prepare('yh.json')
 except Exception as e:
         print u"登录失败!", e
+        with open('deal.csv', 'a') as f:
+            mesg = time.strftime("%Y-%m-%d", time.localtime(time.time())), e
+            f.write(mesg)
 
 buy_times = 0
 sell_times = 0
