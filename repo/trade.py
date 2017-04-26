@@ -16,16 +16,18 @@ import tushare as ts
 try:
     user = easytrader.use('yh', debug=False)
     user.prepare('yh.json')
+    print type(user.position[0])
+    print user.position[0]
     with open('deal.csv', 'a') as f:
         mesg = u"登录成功! "+time.strftime("%Y-%m-%d", time.localtime(time.time())
-                                      ), user.position[0]  # [u"current_amount"]
+                                       ) #, user.position[0]  # [u"current_amount"]
         f.write(mesg)
 
 except Exception as e:
     print u"登录失败!", e
     with open('deal.csv', 'a') as f:
         mesg = u"登录失败! "+time.strftime("%Y-%m-%d",
-                                      time.localtime(time.time())), e
+                                       time.localtime(time.time())) #,# e
         f.write(mesg)
 
 buy_times = 0
@@ -150,7 +152,7 @@ while True:
 
 with open('deal.csv', 'a') as f:
     mesg = time.strftime("%Y-%m-%d", time.localtime(time.time())
-                            ), user.position[0]
+                         ), user.position[0]
     f.write(mesg)
 
 print time.strftime("%Y-%m-%d", time.localtime(time.time()))+"日内交易策略完成！"
