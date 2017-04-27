@@ -19,14 +19,14 @@ try:
     print type(user.position[0])
     print user.position[0]
     with open('deal.csv', 'a') as f:
-        mesg = u"登录成功! "+time.strftime("%Y-%m-%d", time.localtime(time.time())
-                                       ) #, user.position[0]  # [u"current_amount"]
+        mesg = u"登录成功! "+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())
+                                       ) , user.position[0][u"当前持仓"]
         f.write(mesg)
 
 except Exception as e:
     print u"登录失败!", e
     with open('deal.csv', 'a') as f:
-        mesg = u"登录失败! "+time.strftime("%Y-%m-%d",
+        mesg = u"登录失败! "+time.strftime("%Y-%m-%d %H:%M:%S",
                                        time.localtime(time.time())) #,# e
         f.write(mesg)
 
@@ -128,7 +128,7 @@ while True:
     time.sleep(3)
 
     if (time.strftime("%H:%M", time.localtime(time.time())) == "14:56" and
-            user.position[0][u"current_amount"] >= unit_amount * 1.8):
+            user.position[0][u"当前持仓"] >= unit_amount * 1.8):
         user.sell(
             symbols, price=(bidBook_price1 - 0.001),
             amount=unit_amount)
@@ -151,9 +151,9 @@ while True:
         break
 
 with open('deal.csv', 'a') as f:
-    mesg = time.strftime("%Y-%m-%d", time.localtime(time.time())
-                         ), user.position[0]
+    mesg = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())
+                         ),  user.position[0][u"当前持仓"]
     f.write(mesg)
 
-print time.strftime("%Y-%m-%d", time.localtime(time.time()))+"日内交易策略完成！"
+print time.strftime("%Y-%m-% d%H:%M:%S", time.localtime(time.time()))+"日内交易策略完成！"
 time.sleep(120)
