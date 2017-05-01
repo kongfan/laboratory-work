@@ -27,3 +27,4 @@ syntax on
 exec 'cd ' . fnameescape('C:\Users\kongfan\Desktop\Document\portabgit\laboratory-work')  
 set autochdir
 
+set fileformat＝unix
