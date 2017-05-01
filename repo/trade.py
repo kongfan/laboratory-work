@@ -14,24 +14,28 @@ import tushare as ts
 
 
 try:
-    user = easytrader.use('yh', debug=False)
-    user.prepare('yh.json')
-    print type(user.position[0])
-    print user.position[0]
-    with open('deal.csv', 'a') as f:
-        mesg = u"登录成功! "+time.strftime("%Y-%m-%d", time.localtime(time.time())) + "\n"
-        f.write(mesg)
+        user = easytrader.use('yh', debug=False)
+        user.prepare('yh.json')
+        position = user.position[0]
+        for k,v in position.iteritems():
+            print k, v 
+
+        with open('deal.csv', 'a') as f:
+                mesg = u"登录成功! "+time.strftime("%Y-%m-%d %H:%M:%S",
+                                               time.localtime(time.time())) + "\n"
+                f.write(mesg)
 
 except Exception as e:
-    print u"登录失败!", e
-    with open('deal.csv', 'a') as f:
-        mesg = u"登录失败! "+time.strftime("%Y-%m-%d", time.localtime(time.time()))+ "\n"  # ,# e
-        f.write(mesg)
+        print u"登录失败!", e
+        with open('deal.csv', 'a') as f:
+                mesg = u"登录失败! "+time.strftime("%Y-%m-%d %H:%M:%S",
+                                               time.localtime(time.time())) + "\n"
+                f.write(mesg)
 
 buy_times = 0
 sell_times = 0
-symbols = u'150312'       # 被交易证券六位数代码
-deviation = 0.009         # 偏离均价线的幅度
+symbols = u'159949'       # 被交易证券六位数代码
+deviation = 0.005         # 偏离均价线的幅度
 retracement = 0.001       # 从高位回撤的值
 
 i = 1
@@ -147,11 +151,5 @@ while True:
 
         if time.strftime("%H:%M", time.localtime(time.time())) == "14:58":
                 break
-
-with open('deal.csv', 'a') as f:
-        mesg = time.strftime("%Y-%m-%d", time.localtime(time.time())
-                             ), user.position[0]
-        f.write(mesg)
-
-print time.strftime("%Y-%m-%d", time.localtime(time.time()))+"日内交易策略完成！"
+print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))+"日内交易策略完成！"
 time.sleep(120)
